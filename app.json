@@ -13,7 +13,11 @@
       "backgroundColor": "#ffffff"
     },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSCameraUsageDescription": "แอพต้องการใช้กล้องเพื่อถ่ายรูป",
+        "NSPhotoLibraryAddUsageDescription": "แอพบันทึกรูปภาพลงในแกลเลอรี่ของคุณ"
+      }
     },
     "android": {
       "adaptiveIcon": {
